@@ -9,7 +9,8 @@ use App\Notifications\PostLikedNotification;
 use Illuminate\Support\Facades\Auth;
 
 class LikePost extends Component
-{
+{  
+    public $postss;
     public $post;
     public $isLiked = false;
     public $likeCount = 0;
